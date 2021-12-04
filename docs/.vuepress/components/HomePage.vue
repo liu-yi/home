@@ -195,12 +195,10 @@ export default defineComponent({
         copyText("mail@imliuyi.com", undefined, (error, event) => {
           if (error) {
             message.warning("Can not copy. ", { duration: 3000 });
-            console.log(error);
           } else {
             message.success("The e-mail address is copied. ", {
               duration: 3000,
             });
-            console.log(event);
           }
         });
       },
