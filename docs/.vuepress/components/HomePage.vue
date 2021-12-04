@@ -9,7 +9,7 @@
             style="border-radius: 50%; width: calc(30vh)"
             @mouseenter="hover_avatar = true"
             @mouseleave="hover_avatar = false"
-            :src="here_logo"
+            :src="logo_list[here_logo]"
           />
         </div>
       </n-gi>
@@ -165,11 +165,22 @@ export default defineComponent({
       hover_avatar: false,
       hover_name: false,
       here: false,
+      logo_list: [
+        "/logo.jpg",
+        "/logo1.jpg",
+        "/logo2.jpg"
+      ]
     };
   },
   computed: {
     here_logo() {
-      return this.hover_avatar? "/logo1.jpg" : (this.here ? "/logo2.jpg" : "/logo.jpg");
+      if(this.hover_avatar){
+        return 1;
+      }else if(this.here){
+        return 2;
+      }else{
+        return 0;
+      }
     },
   },
   setup() {
