@@ -167,11 +167,11 @@ export default defineComponent({
   },
   methods: {
     mouseEnter(event) {
-      console.log(event)
+      // console.log(event)
       this.hover_avatar = true; 
     },
     mouseLeave(event){
-      console.log(event)
+      // console.log(event)
       this.hover_avatar = false; 
     }
   },
