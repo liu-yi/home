@@ -2,10 +2,8 @@
   <div class="main">
     <n-grid x-gap="12" :cols="1" style="padding-top: calc(22vh)">
       <n-gi>
-        <div style="text-align: center">
-          <n-image
-            id="logo"
-            preview-disabled
+        <div id="logo" style="text-align: center">
+          <img
             style="border-radius: 50%; width: calc(30vh)"
             v-on="{ mouseenter: mouseEnter, mouseleave: mouseLeave }"
             :src="logo_list[here_logo]"
