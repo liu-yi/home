@@ -55,7 +55,13 @@ export default defineUserConfig<DefaultThemeOptions>({
       {
         selector: ':not(a, #logo) > img'
       }
-    ]
+    ],
+    [
+      '@vuepress/plugin-google-analytics',
+      {
+        id: 'G-V6PJ8BXB1K',
+      },
+    ],
     
     // [
     //   '@vuepress/plugin-search',
