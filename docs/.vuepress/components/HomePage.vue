@@ -41,7 +41,7 @@
           </template>
           <template #header>
             <n-text strong depth="1">
-              <div v-clipboard="email" style="text-align: center">
+              <div style="text-align: center">
                 <n-button
                   text
                   icon-placement="right"

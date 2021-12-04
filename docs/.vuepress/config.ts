@@ -8,13 +8,18 @@ export default defineUserConfig<DefaultThemeOptions>({
   description: 'Yi Liu | HomePage',
 
   extendsMarkdown: (md) => {
-    // md.use(require('markdown-it-katex'))
-    md.use(require('@neilsustc/markdown-it-katex'))
+    // md.use(require('@iktakahiro/markdown-it-katex'))
+    // md.use(require('@neilsustc/markdown-it-katex'))
+    md.use(require('./plugins/markdown-it-katex'))
     md.use(require('markdown-it-task-lists'))
     md.linkify.set({ fuzzyEmail: false })
   },
 
   themeConfig: {
+    editLink: false,
+    lastUpdated: false,
+    contributors: false,
+    createdTime: false,
     logo: '/logo.png',
     darkMode: false,
     navbar: [
