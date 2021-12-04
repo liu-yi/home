@@ -1,0 +1,12 @@
+// @import "https://cdn.bootcss.com/KaTeX/0.9.0/katex.min.css";
+// @import "https://cdn.jsdelivr.net/github-markdown-css/2.2.1/github-markdown.css"; 
+body{
+    .site-name{
+        display: none;
+    }
+    .router-link-exact-active{
+        .logo{
+            display: none;
+        }
+    }
+}
