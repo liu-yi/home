@@ -7,8 +7,8 @@
             id="logo"
             preview-disabled="true"
             style="border-radius: 50%; width: calc(30vh)"
-            @mouseenter="hover_avatar = true"
-            @mouseleave="hover_avatar = false"
+            @mouseenter.native="hover_avatar = true"
+            @mouseleave.native="hover_avatar = false"
             :src="logo_list[here_logo]"
           />
         </div>
