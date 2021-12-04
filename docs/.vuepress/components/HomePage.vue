@@ -169,7 +169,7 @@ export default defineComponent({
   },
   computed: {
     here_logo() {
-      return this.here ? "/logo2.jpg" : "/logo.jpg";
+      return this.hover_avatar? "/logo2.jpg" : (this.here ? "/logo2.jpg" : "/logo.jpg");
     },
   },
   setup() {

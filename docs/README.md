@@ -4,6 +4,6 @@
 sidebar: false
 ---
 
-<n-message-provider placement="bottom">
+<n-message-provider placement="top">
 <HomePage/>
 </n-message-provider>
