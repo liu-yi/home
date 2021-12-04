@@ -5,10 +5,9 @@
         <div style="text-align: center">
           <n-image
             id="logo"
-            preview-disabled="true"
+            preview-disabled
             style="border-radius: 50%; width: calc(30vh)"
-            @mouseenter.native="hover_avatar = true"
-            @mouseleave.native="hover_avatar = false"
+            v-on="{ mouseenter: mouseEnter, mouseleave: mouseLeave }"
             :src="logo_list[here_logo]"
           />
         </div>
@@ -165,20 +164,26 @@ export default defineComponent({
       hover_avatar: false,
       hover_name: false,
       here: false,
-      logo_list: [
-        "/logo.jpg",
-        "/logo1.jpg",
-        "/logo2.jpg"
-      ]
+      logo_list: ["/logo.jpg", "/logo1.jpg", "/logo2.jpg"],
     };
+  },
+  methods: {
+    mouseEnter(event) {
+      console.log(event)
+      this.hover_avatar = true; 
+    },
+    mouseLeave(event){
+      console.log(event)
+      this.hover_avatar = false; 
+    }
   },
   computed: {
     here_logo() {
-      if(this.hover_avatar){
+      if (this.hover_avatar) {
         return 1;
-      }else if(this.here){
+      } else if (this.here) {
         return 2;
-      }else{
+      } else {
         return 0;
       }
     },
