@@ -2,14 +2,13 @@
   <n-grid x-gap="12" :cols="1" style="padding-top: 20%">
     <n-gi>
       <div style="text-align: center;">
-        <n-image
+        <n-image id="logo" preview-disabled=true
           style="width: 32%; border-radius: 50%; "
           @mouseenter="hover_avatar = true"
           @mouseleave="hover_avatar = false"
-          v-bind:src="
-            hover_avatar ? 'logo1.jpg' : here ? '/logo2.jpg' : '/logo.jpg'
+          :src="
+            hover_avatar ? 'logo1.jpg' : (here ? '/logo2.jpg' : '/logo.jpg')
           "
-          preview-disabled
         />
       </div>
     </n-gi>
@@ -154,6 +153,7 @@ import {
 import { defineComponent, ref, getCurrentInstance } from "vue";
 import { init } from "ityped";
 import { useMessage } from 'naive-ui';
+import { copyText } from 'vue3-clipboard'
 
 export default defineComponent({
   data: function () {
@@ -169,7 +169,15 @@ export default defineComponent({
     const message = useMessage();
     return {
       successCopyEmail() {
-        message.success("Copy the e-mail address. ", { duration: 3000 });
+        copyText('mail@imliuyi.com', undefined, (error, event) => {
+          if (error) {
+            message.warning("Can not copy. ", { duration: 3000 });
+            console.log(error)
+          } else {
+            message.success("The e-mail address is copied. ", { duration: 3000 });
+            console.log(event)
+          }
+        })
       },
       show_paper: ref(false),
       showPopover: ref(false),

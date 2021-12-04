@@ -50,6 +50,13 @@ export default defineUserConfig<DefaultThemeOptions>({
         },
       },
     ],
+    [
+      '@vuepress/plugin-medium-zoom',
+      {
+        selector: ':not(a, #logo) > img'
+      }
+    ]
+    
     // [
     //   '@vuepress/plugin-search',
     //   {
