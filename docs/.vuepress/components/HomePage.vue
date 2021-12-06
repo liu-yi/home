@@ -219,8 +219,8 @@ export default defineComponent({
       strings: [
         "My Chinese name is 刘逸. ",
         "I am a Ph.D. student at HKU. ",
-        "I do research on Cryptography.",
-        "I am interested in cryptographic protocols",
+        "I do research on Cryptography. ",
+        "I am interested in cryptographic protocols. ",
         // "For example, multi-party computation, zero-knowledge proofs, etc.",
         "See my resume for more about me. ",
       ],
