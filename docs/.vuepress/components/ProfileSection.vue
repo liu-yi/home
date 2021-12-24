@@ -7,9 +7,10 @@
       <div class="name">
         {{ data.name }}
       </div>
-      <div class="bio">
+      <!-- <div class="bio">
         <p>{{ data.bio }}</p>
-      </div>
+      </div> -->
+      <div style="padding: 8px"></div>
       <div class="socials">
         <div v-for="item in data.socials" :key="item">
             <a :href="item.link" target="_blank">

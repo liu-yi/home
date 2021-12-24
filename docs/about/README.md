@@ -17,7 +17,7 @@ socials:
     link: https://www.linkedin.com/in/%E9%80%B8-%E5%88%98-363764114/
 
 # cv: https://en.wikipedia.org/wiki/Harry_Potter
-bio: Ph.D. Student at HKU
+# bio: Ph.D. Student at HKU
 email: mail@imliuyi.com
 ---
 <div style="padding: 2%"></div>
