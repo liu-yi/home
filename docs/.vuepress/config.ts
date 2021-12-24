@@ -4,8 +4,8 @@ const { path } = require('@vuepress/utils')
 
 export default defineUserConfig<DefaultThemeOptions>({
   lang: 'zh-CN',
-  title: 'Yi Liu | HomePage',
-  description: 'Yi Liu | HomePage',
+  title: 'Yi Liu',
+  description: "Yi Liu's HomePage",
 
   extendsMarkdown: (md) => {
     // md.use(require('@iktakahiro/markdown-it-katex'))
@@ -28,6 +28,10 @@ export default defineUserConfig<DefaultThemeOptions>({
         text: 'Home',
         link: '/',
       },
+      { 
+        text: "About", 
+        link: "/about/" 
+      },
       {
         text: 'Papers',
         link: '/papers/',
@@ -47,6 +51,8 @@ export default defineUserConfig<DefaultThemeOptions>({
       {
         components: {
           HomePage: path.resolve(__dirname, './components/HomePage.vue'),
+          ProjectCard: path.resolve(__dirname, './components/ProjectCard.vue'),
+          ProfileSection: path.resolve(__dirname, './components/ProfileSection.vue'),
         },
       },
     ],

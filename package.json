@@ -21,6 +21,8 @@
     "ityped": "^1.0.3",
     "katex": "^0.15.1",
     "markdown-it-task-lists": "^2.1.1",
+    "stylus": "^0.56.0",
+    "stylus-loader": "^6.2.0",
     "vue3-clipboard": "^1.0.0"
   }
 }
