@@ -91,7 +91,7 @@ I am a Ph.D. student at Computer Science Department of The University of Hong Ko
 - **Best Thesis Award** Department of Computer Science and Engineering of SUSTech **2018**
 - **SUSTech Outstanding Student Scholarship** (Third Prize) **2017**
 - **SUSTech Outstanding Student Scholarship** (Second Prize) **2016**
-- **College Student Start-up Scholarship** **2014 – 2018**
+- **College Student Start-Up Scholarship** **2014 – 2018**
 
 
 ## Experience
@@ -99,6 +99,8 @@ I am a Ph.D. student at Computer Science Department of The University of Hong Ko
   - CoCrypto Lab (Adviser: Prof. Qi Wang) *Sept. 2016 – Aug. 2018*
   - SUSTech Innovation Center for Data Science (Adviser: Dr. Rusong Zheng) *July 2017 – Aug. 2017*
   - UAV and Sensor Network Lab (Adviser: Prof. Qi Hao) *July 2015 – Sept. 2016* 
+
+  ---
 
 - **Teaching Assistant**
   - COMP2119: Introduction to Data Structures and Algorithms (HKU Fall 2021)
