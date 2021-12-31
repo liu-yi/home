@@ -5,7 +5,7 @@ const { path } = require('@vuepress/utils')
 export default defineUserConfig<DefaultThemeOptions>({
   lang: 'zh-CN',
   title: 'Yi Liu',
-  description: "Yi Liu's HomePage",
+  description: "Yi Liu (刘逸) is a Ph.D. student at Computer Science Department of The University of Hong Kong (HKU). His research interests include cryptography, privacy, and blockchain. He is mainly working on cryptographic protocols, such as multi-party computation (MPC), zero-knowledge proofs, etc.",
 
   extendsMarkdown: (md) => {
     // md.use(require('@iktakahiro/markdown-it-katex'))
