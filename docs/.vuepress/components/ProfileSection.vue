@@ -7,10 +7,10 @@
       <div class="name">
         {{ data.name }}
       </div>
-      <!-- <div class="bio">
+      <div class="bio">
         <p>{{ data.bio }}</p>
-      </div> -->
-      <div style="padding: 8px"></div>
+      </div>
+      <!-- <div style="padding: 8px"></div> -->
       <div class="socials">
         <div v-for="item in data.socials" :key="item">
             <a :href="item.link" target="_blank">
@@ -23,8 +23,11 @@
         <div class="email" title="Contact me">{{ data.email }}</div>
       </div>
       <div v-if="data.cv">
-        <a target="_blank" style="font-size: 0.2em" :href="data.cv" title="Download my CV in PDF">
-          <b>[CV]</b>
+        <a target="_blank" style="font-size: 1em" :href="data.cv" title="Download my full CV in PDF">
+          [Full CV]
+        </a>
+        <a target="_blank" style="font-size: 1em" :href="data.cv_cn" title="下载我的中文版简历">
+          [中文简历]
         </a>
       </div>
     </div>

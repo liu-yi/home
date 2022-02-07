@@ -32,10 +32,10 @@ export default defineUserConfig<DefaultThemeOptions>({
         text: "About", 
         link: "/about/" 
       },
-      {
-        text: 'Papers',
-        link: '/papers/',
-      },
+      // {
+      //   text: 'Papers',
+      //   link: '/papers/',
+      // },
       // NavbarGroup
       // {
       //   text: 'Group',

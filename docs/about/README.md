@@ -9,15 +9,28 @@ name: Yi Liu (刘逸)
 profile: /logo.jpg
 
 socials:
+  - title: Google Scholar
+    icon: "/icons/google-scholar.svg"
+    link: https://scholar.google.com.hk/citations?user=pKOcyg0AAAAJ/
   - title: github
     icon: "/icons/github.svg"
     link: https://github.com/liu-yi
   - title: linkedin
     icon: "/icons/linkedin-mono.svg"
     link: https://www.linkedin.com/in/%E9%80%B8-%E5%88%98-363764114/
+  - title: 知乎
+    icon: "/icons/zhihu.svg"
+    link: https://www.zhihu.com/people/imliuyi/
+  - title: 豆瓣
+    icon: "/icons/douban.svg"
+    link: https://www.douban.com/people/imliuyi/
 
-# cv: https://en.wikipedia.org/wiki/Harry_Potter
-# bio: Ph.D. Student at HKU
+    
+
+
+cv: /YiLIU-CV-en.pdf
+cv_cn: /YiLIU-CV-zh_CN.pdf
+bio: A Ph.D. Candidate in Cryptography
 email: mail@imliuyi.com
 ---
 <div style="padding: 2%"></div>
@@ -25,7 +38,8 @@ email: mail@imliuyi.com
 
 ## About Me
 
-I am a Ph.D. student at Computer Science Department of The University of Hong Kong (HKU). My research interests include **cryptography**, **privacy**, and **blockchain**. I'm mainly working on **cryptographic protocols**, such as **multi-party computation (MPC)**, **zero-knowledge proofs**, etc.
+I am a Ph.D. candidate at Computer Science Department of The University of Hong Kong (HKU). My research interests cryptography and network security, in particular: **secure two-party/multi-party computation**, **zero-knowledge proofs**, **timed cryptography**, **blockchain-related applications**, etc.
+
 
 <!-- ## News
 
@@ -36,13 +50,17 @@ I am a Ph.D. student at Computer Science Department of The University of Hong Ko
 ## Education
 
 - **The University of Hong Kong (HKU)** *Sept. 2018 – Present* 
-  - Ph.D. Candidate in Cryptography | Joint Ph.D. Programme with SUSTech
-  - Supervisor: [Prof. Siu-Ming Yiu](https://www.cs.hku.hk/index.php/people/academic-staff/smyiu) (HKU) and [Prof. Qi Wang](http://cse.sustech.edu.cn/faculty/~wangqi/) (SUSTech)
+  - Ph.D. Candidate in Cryptography 
+  - Joint Ph.D. Programme with SUSTech
+  - Supervisor: [Siu-Ming Yiu](https://www.cs.hku.hk/index.php/people/academic-staff/smyiu) (HKU) and [Qi Wang](http://cse.sustech.edu.cn/faculty/~wangqi/) (SUSTech)
 - **Southern University of Science and Technology (SUSTech)** *Sept. 2014 – July 2018*
-  - B.Eng. in Computer Science and Technology | GPA: **3.84/4.00** (Core); **3.70/4.00** (Overall)
+  - B.Eng. in Computer Science and Technology
+  - GPA: **3.84/4.00** (Core); **3.70/4.00** (Overall)
   - Thesis: An Evaluation System Based on Blockchain and Linkable Ring Signature. [[Slides](https://imliuyi.com/ugthesis_slide.pdf)]
+    - Best Thesis Award in the CSE Department, SUSTech.
 
-## Publication
+
+## Publications
 
 - **Making Private Function Evaluation Safer, Faster, and Simpler**
   
@@ -74,13 +92,23 @@ I am a Ph.D. student at Computer Science Department of The University of Hong Ko
 
     In Information Security and Cryptology. **Inscrypt 2020**.  [[ePrint](https://eprint.iacr.org/2020/567)] [[Slides](https://1drv.ms/p/s!At50T0g9p5_r0A2vDcMbE_xz74Gy?e=NH91na)]
 
+    
+
+## Manuscripts
+
+- **Towards Practical Homomorphic Time-Lock Puzzles: Usability and Verifiability**
+  
+    <u>**Yi Liu**</u>, Qi Wang, Siu-Ming Yiu 
+
+    Manuscript, 2022.
+
     ---
 
 - **An E-voting Protocol Based on Blockchain**
   
     <u>**Yi Liu**</u>, Qi Wang
 
-    Manuscript. [[ePrint](https://eprint.iacr.org/2017/1043)]
+    Manuscript, 2017. [[ePrint](https://eprint.iacr.org/2017/1043)]
 
 
 ## Invited Talks
