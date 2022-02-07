@@ -153,7 +153,7 @@ import {
 } from "@vicons/antd";
 import { defineComponent, ref, getCurrentInstance } from "vue";
 import { init } from "ityped";
-import { useMessage } from "naive-ui";
+import { useMessage, NButton, NTooltip, NPopover, NGrid, NGi, NIcon } from "naive-ui";
 import { copyText } from "vue3-clipboard";
 
 export default defineComponent({
@@ -227,6 +227,8 @@ export default defineComponent({
     });
   },
   components: {
+    NTooltip, NPopover, NGrid, NGi, NIcon,
+    NButton,
     GithubFilled,
     LinkedinFilled,
     MailFilled,
