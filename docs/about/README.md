@@ -2,8 +2,8 @@
 pageClass: about
 # some data for the components
 
-sidebar: false
-title: About Me
+sidebar: auto
+title: About Yi Liu
 
 name: Yi Liu (刘逸)
 profile: /logo.jpg
@@ -74,7 +74,7 @@ I am a Ph.D. candidate at Computer Science Department of The University of Hong 
   
     <u>**Yi Liu**</u>, Qi Wang, Siu-Ming Yiu 
 
-    In Information Security and Cryptology. **Inscrypt 2021**. [[ePrint](https://eprint.iacr.org/2021/1430)] [[Slides](https://1drv.ms/p/s!At50T0g9p5_r4lFUZ0hVzNpJfVbV?e=MP4v6i)]
+    In Information Security and Cryptology. **Inscrypt 2021**. [[ePrint](https://eprint.iacr.org/2021/1430)] 
     
     ---
 
@@ -82,7 +82,7 @@ I am a Ph.D. candidate at Computer Science Department of The University of Hong 
   
     <u>**Yi Liu**</u>, Qi Wang, Siu-Ming Yiu 
 
-    In Applied Cryptography and Network Security. **ACNS 2021**. [[ePrint](https://eprint.iacr.org/2021/413)] [[Slides](https://1drv.ms/p/s!At50T0g9p5_r3mbt0dabEcLzhFoH?e=R6uZuh)]
+    In Applied Cryptography and Network Security. **ACNS 2021**. [[ePrint](https://eprint.iacr.org/2021/413)]
 
     ---
 
@@ -90,7 +90,7 @@ I am a Ph.D. candidate at Computer Science Department of The University of Hong 
   
     <u>**Yi Liu**</u>, Qi Wang, Siu-Ming Yiu 
 
-    In Information Security and Cryptology. **Inscrypt 2020**.  [[ePrint](https://eprint.iacr.org/2020/567)] [[Slides](https://1drv.ms/p/s!At50T0g9p5_r0A2vDcMbE_xz74Gy?e=NH91na)]
+    In Information Security and Cryptology. **Inscrypt 2020**.  [[ePrint](https://eprint.iacr.org/2020/567)] 
 
     
 
@@ -111,9 +111,29 @@ I am a Ph.D. candidate at Computer Science Department of The University of Hong 
     Manuscript, 2017. [[ePrint](https://eprint.iacr.org/2017/1043)]
 
 
-## Invited Talks
+## Talks
 
-**Conference Talks**: Inscrypt’21, ACNS’21, Inscrypt’20.
+- **Improved Zero-Knowledge Argument of Encrypted Extended Permutation**
+
+    In Information Security and Cryptology. **Inscrypt 2021**. 
+    
+    Virtual. Aug. 2021. [[Slides](https://1drv.ms/p/s!At50T0g9p5_r4lFUZ0hVzNpJfVbV?e=MP4v6i)]
+
+    ---
+
+- **Blind Polynomial Evaluation and Data Trading**
+
+    In Applied Cryptography and Network Security. **ACNS 2021**. 
+
+    Virtual. June 2021. [[Slides](https://1drv.ms/p/s!At50T0g9p5_r3mbt0dabEcLzhFoH?e=R6uZuh)]
+    
+    ---
+
+- **An Improvement of Multi-Exponentiation with Encrypted Bases Argument: Smaller and Faster**
+
+    In Information Security and Cryptology. **Inscrypt 2020**. 
+
+    Guangzhou, China. Dec. 2021. [[Slides](https://1drv.ms/p/s!At50T0g9p5_r0A2vDcMbE_xz74Gy?e=NH91na)]
 
 ## Awards & Honors
 - **Best Thesis Award** Department of Computer Science and Engineering of SUSTech **2018**
@@ -138,6 +158,8 @@ I am a Ph.D. candidate at Computer Science Department of The University of Hong 
   - CS201: Discrete Mathematics (SUSTech Fall 2016) 
   - CS302: Operating System (SUSTech Spring 2016)
 
+## Skills
+C/C++, Python, LaTeX, Java, HTML/CSS, JavaScript
 
 
 <!-- [→ Full list](/projects/) -->
