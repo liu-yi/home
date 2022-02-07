@@ -4,7 +4,7 @@ sidebar: auto
 ---
 
 
-# Study Plan
+# Todo List
 
 <!-- Books, Courses, etc. -->
 

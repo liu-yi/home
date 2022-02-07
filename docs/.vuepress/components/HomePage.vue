@@ -188,7 +188,7 @@ export default defineComponent({
       gotonotes() {
         o.data.gotonotenum++;
         if (o.data.gotonotenum == 5) {
-          this.$router.push("/study-plan");
+          this.$router.push("/todo");
         }
       },
       show_paper: ref(false),
