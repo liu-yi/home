@@ -39,23 +39,21 @@
               </n-button>
             </template>
             <template #header>
-              <n-text strong depth="1">
-                <div style="text-align: center">
-                  <n-button
-                    text
-                    icon-placement="right"
-                    style="font-size: 20px"
-                    @click="successCopyEmail"
-                  >
-                    <template #icon>
-                      <n-icon>
-                        <CopyOutlined />
-                      </n-icon>
-                    </template>
-                    mail@imliuyi.com
-                  </n-button>
-                </div>
-              </n-text>
+              <div style="text-align: center">
+                <n-button
+                  text
+                  icon-placement="right"
+                  style="font-size: 20px"
+                  @click="successCopyEmail"
+                >
+                  <template #icon>
+                    <n-icon>
+                      <CopyOutlined />
+                    </n-icon>
+                  </template>
+                  mail@imliuyi.com
+                </n-button>
+              </div>
             </template>
             <n-grid x-gap="12" :cols="3" style="margin-top: 10px">
               <n-gi>
@@ -151,7 +149,7 @@ import {
   IdcardOutlined,
   CopyOutlined,
 } from "@vicons/antd";
-import { defineComponent, ref, getCurrentInstance } from "vue";
+import { defineComponent, ref, getCurrentInstance, Text } from "vue";
 import { init } from "ityped";
 import {
   useMessage,
@@ -235,6 +233,7 @@ export default defineComponent({
     });
   },
   components: {
+    Text,
     NTooltip,
     NPopover,
     NGrid,
