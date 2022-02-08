@@ -29,7 +29,7 @@ socials:
 
 
 cv: /YiLIU-CV-en.pdf
-cv_cn: /YiLIU-CV-zh_CN.pdf
+cv_cn: /YiLIU-CV-cn.pdf
 bio: A Ph.D. Candidate in Cryptography
 email: mail@imliuyi.com
 ---

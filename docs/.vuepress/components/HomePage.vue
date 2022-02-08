@@ -72,7 +72,7 @@
                 </template>
                 <div style="text-align: center; font-size: 20px">CV</div>
                 <div style="text-align: center; font-size: 16px">
-                  <a href="/YiLIU-CV-zh_CN.pdf" target="_blank">[中文版]</a>
+                  <a href="/YiLIU-CV-cn.pdf" target="_blank">[中文版]</a>
                 </div>
               </n-tooltip>
             </n-gi>
