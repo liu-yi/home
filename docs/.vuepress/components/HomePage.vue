@@ -226,7 +226,7 @@ export default defineComponent({
         "I do research on Cryptography. ",
         "I am interested in cryptographic protocols. ",
         // "For example, multi-party computation, zero-knowledge proofs, etc.",
-        "See my resume for more about me. ",
+        "See my CV for more about me. ",
       ],
     });
   },
