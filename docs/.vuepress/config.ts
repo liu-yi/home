@@ -32,7 +32,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         link: "/research/" 
       },
       { 
-        text: "My CV", 
+        text: "About Me", 
         link: "/CV/" 
       },
       // {

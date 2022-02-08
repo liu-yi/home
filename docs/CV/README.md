@@ -3,7 +3,7 @@ pageClass: CV
 # some data for the components
 
 sidebar: auto
-title: Yi Liu's Curriculum Vitae
+title: Curriculum Vitae
 
 name: Yi Liu (刘逸)
 profile: /logo.jpg

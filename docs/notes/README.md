@@ -1,14 +1,55 @@
 ---
-sidebar: false
+sidebar: [{
+          text: 'Notes',
+          children: [
+            {
+              text: 'Top Conference',
+              link: '/notes/top-conference'
+            },
+            {
+              text: 'Zero Knowledge',
+              link: '/notes/zero-knowledge'
+            },
+            {
+              text: 'English Pronunciation',
+              link: '/notes/pronunciation'
+            },
+            {
+              text: 'English Tips',
+              link: '/notes/en_tips'
+            },
+          ]
+        }]
+pageClass: notes
 title: Notes
 ---
 
 # Notes
 
-#### [Zero Knowledge](./zero-knowledge.md)
+This is the page for my notes :tada: ！
 
-#### [English Pronunciation](./pronunciation.md)
+- [Zero Knowledge](./zero-knowledge.md)
 
-#### [Top Conference](./top-conference.md)
+- [English Pronunciation](./pronunciation.md)
 
-#### [English Tips](./en_tips.md)
+- [Top Conference](./top-conference.md)
+
+- [English Tips](./en_tips.md)
+
+
+
+
+
+<style lang="stylus">
+
+.theme-container.notes .page
+  font-size 17px
+  font-family "lucida grande", "lucida sans unicode", lucida, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  p
+    margin 1.5rem 0 1.5rem
+  p, ul, ol
+    line-height normal
+  a
+    color black
+
+</style>

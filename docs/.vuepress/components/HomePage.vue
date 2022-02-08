@@ -3,7 +3,7 @@
     <div style="padding-top: calc(22vh)">
       <div id="logo" style="text-align: center">
         <img
-          @click="gotonotes"
+          @click="gototodo"
           style="border-radius: 50%; width: calc(30vh)"
           v-on="{ mouseenter: mouseEnter, mouseleave: mouseLeave }"
           :src="logo_list[here_logo]"
@@ -26,9 +26,14 @@
           @update:show="handleUpdateShow"
         >
           <template #trigger>
-            <n-button round size="large" style="width: 300px">
+            <n-button
+              @click="gotonotes"
+              round
+              size="large"
+              style="width: 300px"
+            >
               <span style="font-size: 18px">{{
-                here ? "Quick Start" : "Here!"
+                here ? "Quick Start!" : "Here!"
               }}</span>
             </n-button>
           </template>
@@ -145,10 +150,19 @@ export default defineComponent({
       hover_name: false,
       here: false,
       logo_list: ["/logo.jpg", "/logo1.jpg", "/logo2.jpg"],
+      gototodonum: 0,
       gotonotenum: 0,
     };
   },
   methods: {
+    gotonotes() {
+      this.gotonotenum++;
+      // console.log(this.$router);
+      if (this.gotonotenum == 5) {
+        console.log(this.$router)
+        this.$router.push("/notes");
+      }
+    },
     mouseEnter(event) {
       // console.log(event)
       this.hover_avatar = true;
@@ -185,9 +199,10 @@ export default defineComponent({
           }
         });
       },
-      gotonotes() {
-        o.data.gotonotenum++;
-        if (o.data.gotonotenum == 5) {
+      gototodo() {
+        o.data.gototodonum++;
+        console.log(this);
+        if (o.data.gototodonum == 5) {
           this.$router.push("/todo");
         }
       },
@@ -207,7 +222,7 @@ export default defineComponent({
       showCursor: true,
       strings: [
         "My Chinese name is 刘逸. ",
-        "I am a Ph.D. student at HKU. ",
+        "I am a Ph.D. candidate at HKU. ",
         "I do research on Cryptography. ",
         "I am interested in cryptographic protocols. ",
         // "For example, multi-party computation, zero-knowledge proofs, etc.",

@@ -24,7 +24,7 @@
       </div>
       <div v-if="data.cv">
         <a target="_blank" style="font-size: 1em" :href="data.cv" title="Download my full CV in PDF">
-          [Full CV]
+          [Full CV in English]
         </a>
         <a target="_blank" style="font-size: 1em" :href="data.cv_cn" title="下载我的中文版简历">
           [中文简历]
