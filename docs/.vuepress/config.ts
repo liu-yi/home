@@ -23,14 +23,17 @@ export default defineUserConfig<DefaultThemeOptions>({
     logo: '/logo.png',
     darkMode: false,
     navbar: [
-      // NavbarItem
       {
         text: 'Home',
         link: '/',
       },
       { 
-        text: "About", 
-        link: "/about/" 
+        text: "Research", 
+        link: "/research/" 
+      },
+      { 
+        text: "My CV", 
+        link: "/CV/" 
       },
       // {
       //   text: 'Papers',

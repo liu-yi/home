@@ -52,7 +52,7 @@ export default {
   flex-direction row
   align-items stretch
   .image
-    max-width 120px
+    max-width 150px
     img
       border-radius 50%
       padding 2px

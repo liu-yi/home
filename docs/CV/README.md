@@ -1,9 +1,9 @@
 ---
-pageClass: about
+pageClass: CV
 # some data for the components
 
 sidebar: auto
-title: About Yi Liu
+title: Yi Liu's Curriculum Vitae
 
 name: Yi Liu (刘逸)
 profile: /logo.jpg
@@ -90,7 +90,7 @@ I am a Ph.D. candidate at Computer Science Department of The University of Hong 
   
     <u>**Yi Liu**</u>, Qi Wang, Siu-Ming Yiu 
 
-    In Information Security and Cryptology. **Inscrypt 2020**.  [[ePrint](https://eprint.iacr.org/2020/567)] 
+    In Information Security and Cryptology. **Inscrypt 2020**. [[ePrint](https://eprint.iacr.org/2020/567)] 
 
     
 
@@ -143,13 +143,6 @@ I am a Ph.D. candidate at Computer Science Department of The University of Hong 
 
 
 ## Experience
-- **Research Assistant**
-  - CoCrypto Lab (Adviser: Prof. Qi Wang) *Sept. 2016 – Aug. 2018*
-  - SUSTech Innovation Center for Data Science (Adviser: Dr. Rusong Zheng) *July 2017 – Aug. 2017*
-  - UAV and Sensor Network Lab (Adviser: Prof. Qi Hao) *July 2015 – Sept. 2016* 
-
-  ---
-
 - **Teaching Assistant**
   - COMP2119: Introduction to Data Structures and Algorithms (HKU Fall 2021)
   - CS403: Cryptography and Network Security (SUSTech Fall 2019, Fall 2020)
@@ -157,6 +150,17 @@ I am a Ph.D. candidate at Computer Science Department of The University of Hong 
   - CS304: Software Engineering (SUSTech Spring 2017)
   - CS201: Discrete Mathematics (SUSTech Fall 2016) 
   - CS302: Operating System (SUSTech Spring 2016)
+
+  ---
+
+- **Research Assistant**
+  - CoCrypto Lab *Sept. 2016 – Aug. 2018*
+    - Adviser: Qi Wang
+  - SUSTech Innovation Center for Data Science *July 2017 – Aug. 2017*
+    - Adviser: Rusong Zheng
+  - UAV and Sensor Network Lab *July 2015 – Sept. 2016*
+    - Adviser: Qi Hao 
+
 
 ## Skills
 C/C++, Python, LaTeX, Java, HTML/CSS, JavaScript
@@ -194,9 +198,9 @@ C/C++, Python, LaTeX, Java, HTML/CSS, JavaScript
 
 <style lang="stylus">
 
-.theme-container.about .page
-  font-size 14px
-  font-family "lucida grande", "lucida sans unicode", lucida, "Helvetica Neue", Helvetica, Arial, sans-serif;
+.theme-container.CV .page
+  /* font-size 14px */
+  /* font-family "lucida grande", "lucida sans unicode", lucida, "Helvetica Neue", Helvetica, Arial, sans-serif; */
   p
     margin 0 0 0.5rem
   p, ul, ol
@@ -222,7 +226,7 @@ C/C++, Python, LaTeX, Java, HTML/CSS, JavaScript
       -webkit-margin-after 0.2em
 
 @media (max-width: 419px)
-  .theme-container.about .page
+  .theme-container.CV .page
     p, ul, ol
       line-height 1.5
 
