@@ -66,7 +66,7 @@ I am a Ph.D. candidate at Computer Science Department of The University of Hong 
   
     <u>**Yi Liu**</u>, Qi Wang, Siu-Ming Yiu 
 
-    To appear in Public-Key Cryptography. **PKC 2022**. [[ePrint](https://eprint.iacr.org/2021/1682)]
+    In Public-Key Cryptography. **PKC 2022**. [[ePrint](https://eprint.iacr.org/2021/1682)]
 
     ---
 
@@ -112,6 +112,12 @@ I am a Ph.D. candidate at Computer Science Department of The University of Hong 
 
 
 ## Talks
+
+- **Making Private Function Evaluation Safer, Faster, and Simpler**
+  
+    In Public-Key Cryptography. **PKC 2022**. 
+
+    Virtual. March. 2022. [[Video](https://www.youtube.com/watch?v=Pv8zVTxacr0)] [[Slides](https://1drv.ms/p/s!At50T0g9p5_r5U8NpjDN_fUzTuho?e=qbX9Ge)]
 
 - **Improved Zero-Knowledge Argument of Encrypted Extended Permutation**
 
