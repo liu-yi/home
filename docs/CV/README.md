@@ -62,6 +62,14 @@ I am a Ph.D. candidate at Computer Science Department of The University of Hong 
 
 ## Publications
 
+- **Towards Practical Homomorphic Time-Lock Puzzles: Applicability and Verifiability**
+  
+    <u>**Yi Liu**</u>, Qi Wang, Siu-Ming Yiu 
+
+    To appear in European Symposium on Research in Computer Security. **ESORICS 2022** [[ePrint](https://eprint.iacr.org/2022/585)]
+
+    ---
+
 - **Making Private Function Evaluation Safer, Faster, and Simpler**
   
     <u>**Yi Liu**</u>, Qi Wang, Siu-Ming Yiu 
@@ -96,13 +104,7 @@ I am a Ph.D. candidate at Computer Science Department of The University of Hong 
 
 ## Manuscripts
 
-- **Towards Practical Homomorphic Time-Lock Puzzles: Usability and Verifiability**
-  
-    <u>**Yi Liu**</u>, Qi Wang, Siu-Ming Yiu 
 
-    Manuscript, 2022.
-
-    ---
 
 - **An E-voting Protocol Based on Blockchain**
   
