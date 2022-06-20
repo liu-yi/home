@@ -66,7 +66,7 @@ I am a Ph.D. candidate at Computer Science Department of The University of Hong 
   
     <u>**Yi Liu**</u>, Qi Wang, Siu-Ming Yiu 
 
-    To appear in European Symposium on Research in Computer Security. **ESORICS 2022** [[ePrint](https://eprint.iacr.org/2022/585)]
+    To appear in European Symposium on Research in Computer Security. **ESORICS 2022**. [[ePrint](https://eprint.iacr.org/2022/585)]
 
     ---
 
@@ -213,6 +213,9 @@ C/C++, Python, LaTeX, Java, HTML/CSS, JavaScript
     margin 0 0 0.5rem
   p, ul, ol
     line-height normal
+    /* padding-top 0.5rem */
+  li
+    padding-top 0.3rem
   a
     font-weight normal
   .theme-default-content:not(.custom) > h2
