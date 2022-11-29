@@ -66,7 +66,7 @@ I am a Ph.D. candidate at Computer Science Department of The University of Hong 
   
     <u>**Yi Liu**</u>, Qi Wang, Siu-Ming Yiu 
 
-    To appear in European Symposium on Research in Computer Security. **ESORICS 2022**. [[ePrint](https://eprint.iacr.org/2022/585)]
+    In European Symposium on Research in Computer Security. **ESORICS 2022**. [[ePrint](https://eprint.iacr.org/2022/585)]
 
     ---
 
@@ -115,17 +115,23 @@ I am a Ph.D. candidate at Computer Science Department of The University of Hong 
 
 ## Talks
 
+- **Towards Practical Homomorphic Time-Lock Puzzles: Applicability and Verifiability**
+
+    In European Symposium on Research in Computer Security. **ESORICS 2022**.
+
+    Virtual. Sept. 2022. 
+
 - **Making Private Function Evaluation Safer, Faster, and Simpler**
   
     In Public-Key Cryptography. **PKC 2022**. 
 
-    Virtual. March. 2022. [[Video](https://www.youtube.com/watch?v=Pv8zVTxacr0)] [[Slides](https://1drv.ms/p/s!At50T0g9p5_r5U8NpjDN_fUzTuho?e=qbX9Ge)]
+    Virtual. March. 2022. [[Video](https://www.youtube.com/watch?v=Pv8zVTxacr0)] 
 
 - **Improved Zero-Knowledge Argument of Encrypted Extended Permutation**
 
     In Information Security and Cryptology. **Inscrypt 2021**. 
     
-    Virtual. Aug. 2021. [[Slides](https://1drv.ms/p/s!At50T0g9p5_r4lFUZ0hVzNpJfVbV?e=MP4v6i)]
+    Virtual. Aug. 2021. 
 
     ---
 
@@ -133,7 +139,7 @@ I am a Ph.D. candidate at Computer Science Department of The University of Hong 
 
     In Applied Cryptography and Network Security. **ACNS 2021**. 
 
-    Virtual. June 2021. [[Slides](https://1drv.ms/p/s!At50T0g9p5_r3mbt0dabEcLzhFoH?e=R6uZuh)]
+    Virtual. June 2021. 
     
     ---
 
@@ -141,7 +147,7 @@ I am a Ph.D. candidate at Computer Science Department of The University of Hong 
 
     In Information Security and Cryptology. **Inscrypt 2020**. 
 
-    Guangzhou, China. Dec. 2021. [[Slides](https://1drv.ms/p/s!At50T0g9p5_r0A2vDcMbE_xz74Gy?e=NH91na)]
+    Guangzhou, China. Dec. 2021. 
 
 ## Awards & Honors
 - **Best Thesis Award** Department of Computer Science and Engineering of SUSTech **2018**
