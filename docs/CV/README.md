@@ -147,7 +147,7 @@ I am a Ph.D. candidate at Computer Science Department of The University of Hong 
 
     In Information Security and Cryptology. **Inscrypt 2020**. 
 
-    Guangzhou, China. Dec. 2021. 
+    Guangzhou, China. Dec. 2020. 
 
 ## Awards & Honors
 - **Best Thesis Award** Department of Computer Science and Engineering of SUSTech **2018**
