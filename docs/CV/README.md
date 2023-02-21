@@ -62,7 +62,7 @@ I am a Ph.D. candidate at Computer Science Department of The University of Hong 
 
 ## Publications
 
-- **Towards Practical Homomorphic Time-Lock Puzzles: Applicability and Verifiability**
+- **Towards Practical Homomorphic Time-Lock Puzzles: Applicability and Verifiability** [:link:](https://link.springer.com/chapter/10.1007/978-3-031-17140-6_21)
   
     <u>**Yi Liu**</u>, Qi Wang, Siu-Ming Yiu 
 
@@ -70,7 +70,7 @@ I am a Ph.D. candidate at Computer Science Department of The University of Hong 
 
     ---
 
-- **Making Private Function Evaluation Safer, Faster, and Simpler**
+- **Making Private Function Evaluation Safer, Faster, and Simpler** [:link:](https://link.springer.com/chapter/10.1007/978-3-030-97121-2_13)
   
     <u>**Yi Liu**</u>, Qi Wang, Siu-Ming Yiu 
 
@@ -78,7 +78,7 @@ I am a Ph.D. candidate at Computer Science Department of The University of Hong 
 
     ---
 
-- **Improved Zero-Knowledge Argument of Encrypted Extended Permutation**
+- **Improved Zero-Knowledge Argument of Encrypted Extended Permutation** [:link:](https://link.springer.com/chapter/10.1007/978-3-030-88323-2_15)
   
     <u>**Yi Liu**</u>, Qi Wang, Siu-Ming Yiu 
 
@@ -86,7 +86,7 @@ I am a Ph.D. candidate at Computer Science Department of The University of Hong 
     
     ---
 
-- **Blind Polynomial Evaluation and Data Trading**
+- **Blind Polynomial Evaluation and Data Trading** [:link:](https://link.springer.com/chapter/10.1007/978-3-030-78372-3_5)
   
     <u>**Yi Liu**</u>, Qi Wang, Siu-Ming Yiu 
 
@@ -94,7 +94,7 @@ I am a Ph.D. candidate at Computer Science Department of The University of Hong 
 
     ---
 
-- **An Improvement of Multi-Exponentiation with Encrypted Bases Argument: Smaller and Faster**
+- **An Improvement of Multi-Exponentiation with Encrypted Bases Argument: Smaller and Faster** [:link:](https://link.springer.com/chapter/10.1007/978-3-030-71852-7_27)
   
     <u>**Yi Liu**</u>, Qi Wang, Siu-Ming Yiu 
 
@@ -184,40 +184,12 @@ I am a Ph.D. candidate at Computer Science Department of The University of Hong 
 C/C++, Python, LaTeX, Java, HTML/CSS, JavaScript
 
 
-<!-- [→ Full list](/projects/) -->
-
-<!-- <ProjectCard image="/papers/papers_pic/BPE.png" hideBorder=true>
-
-  **Making Private Function Evaluation Safer, Faster, and Simpler**
-  
-  <u>**Yi Liu**</u>, Qi Wang, Siu-Ming Yiu 
-
-  To appear in Public-Key Cryptography. PKC 2022.
-  
-  Harry's wand was broken in 1997, but was repaired by him after the 1998 Battle of Hogwarts. Usually the repair of a wand is impossible, but with the use of the Elder Wand it was achievable.
-  
-  [[PDF](https://www.google.com)] [[arXiv](https://arxiv.org)]
-
-</ProjectCard> -->
-
-<!-- <ProjectCard hideBorder=true>
-
-  **Making Private Function Evaluation Safer, Faster, and Simpler**
-  
-  <u>**Yi Liu**</u>, Qi Wang, Siu-Ming Yiu 
-
-  To appear in Public-Key Cryptography. PKC 2022. [[ePrint](https://eprint.iacr.org/2021/1682)]
-
-</ProjectCard> -->
-
-
-
 <!-- Custom style for this page -->
 
 <style lang="stylus">
 
 .theme-container.CV .page
-  /* font-size 14px */
+  /* font-size 17px */
   /* font-family "lucida grande", "lucida sans unicode", lucida, "Helvetica Neue", Helvetica, Arial, sans-serif; */
   p
     margin 0 0 0.5rem
